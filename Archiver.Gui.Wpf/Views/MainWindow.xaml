@@ -1,0 +1,18 @@
+﻿<Window x:Class="Archiver.Gui.Wpf.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Archiver.Gui.Wpf.Views"
+        xmlns:vm="clr-namespace:Archiver.Gui.Wpf.ViewModels"
+        mc:Ignorable="d"
+        Width="{StaticResource WindowWidth}"
+        Height="{StaticResource WindowHeight}"
+        d:Width="{StaticResource WindowWidth}"
+        d:Height="{StaticResource WindowHeight}"
+        Title="Archiver"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        d:DataContext="{d:DesignInstance {x:Type vm:MainWindowViewModel}}">
+
+</Window>
